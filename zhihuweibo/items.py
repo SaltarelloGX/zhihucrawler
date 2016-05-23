@@ -16,3 +16,6 @@ class ZhihuweiboItem(scrapy.Item):
 class Relation(scrapy.Item):
     user_id = scrapy.Field()
     followee_id = scrapy.Field()
+
+class ZhihuUser(scrapy.Item):
+    user_href = scrapy.Field()
